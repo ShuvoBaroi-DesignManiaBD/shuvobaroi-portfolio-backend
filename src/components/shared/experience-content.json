@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_experience_contents",
+  "info": {
+    "displayName": "experience_content"
+  },
+  "options": {},
+  "attributes": {
+    "experience_item": {
+      "displayName": "experience_item",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.experience-item"
+    }
+  }
+}

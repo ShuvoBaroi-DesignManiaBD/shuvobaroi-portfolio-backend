@@ -10,13 +10,19 @@ importers:
     dependencies:
       '@strapi/plugin-cloud':
         specifier: 5.4.1
-        version: 5.4.1(hqd2bufdwnp25o7fycos2zylyq)
+        version: 5.4.1(qzfxrnnooxizvzwsoyrdqexili)
       '@strapi/plugin-users-permissions':
         specifier: 5.4.1
-        version: 5.4.1(fhthpjmnj6yrwy46djvg3yuvdy)
+        version: 5.4.1(nfbiaf77bmkvll35i54qsv6cki)
       '@strapi/strapi':
         specifier: 5.4.1
-        version: 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(koa@2.15.2)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(type-fest@4.27.0)
+        version: 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(koa@2.15.2)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(type-fest@4.28.0)
+      fs-extra:
+        specifier: ^10.0.0
+        version: 10.1.0
+      mime-types:
+        specifier: ^2.1.27
+        version: 2.1.35
       mysql2:
         specifier: 3.9.8
         version: 3.9.8
@@ -35,7 +41,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^20
-        version: 20.17.6
+        version: 20.17.7
       '@types/react':
         specifier: ^18
         version: 18.3.12
@@ -44,7 +50,7 @@ importers:
         version: 18.3.1
       typescript:
         specifier: ^5
-        version: 5.6.3
+        version: 5.7.2
 
 packages:
 
@@ -714,8 +720,8 @@ packages:
     resolution: {integrity: sha512-N8x7eSLGcmUFNWZRxT1vsHvypzIRgQYdG0rJey/rZCy6zT/30qDt8Joj7FxzGNLSwXbeZqJOMqDurp7ra4hgbw==}
     engines: {node: '>=14'}
 
-  '@noble/hashes@1.5.0':
-    resolution: {integrity: sha512-1j6kQFb7QRru7eKN3ZDvRcP13rugwdxZqCjbiAVZfIJwgj2A65UmT4TgARXGlXgnRkORLTDTrO19ZErt7+QXgA==}
+  '@noble/hashes@1.6.0':
+    resolution: {integrity: sha512-YUULf0Uk4/mAA89w+k3+yUYh6NrEvxZa5T6SY3wlMvE2chHkxFUUIDI8/XW1QSC357iA5pSnqt7XEhvFOqmDyQ==}
     engines: {node: ^14.21.3 || >=16}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -1312,93 +1318,93 @@ packages:
     resolution: {integrity: sha512-xfSkCAchbdG5PnbrKqFWwia4Bi61nH+wm8wLEqfHDyp7Y3dZzgqS2itV8i4gAq9pC2HsTpwyBC6Ds8VHZ96JlA==}
     engines: {node: '>=14.0.0'}
 
-  '@rollup/rollup-android-arm-eabi@4.27.3':
-    resolution: {integrity: sha512-EzxVSkIvCFxUd4Mgm4xR9YXrcp976qVaHnqom/Tgm+vU79k4vV4eYTjmRvGfeoW8m9LVcsAy/lGjcgVegKEhLQ==}
+  '@rollup/rollup-android-arm-eabi@4.27.4':
+    resolution: {integrity: sha512-2Y3JT6f5MrQkICUyRVCw4oa0sutfAsgaSsb0Lmmy1Wi2y7X5vT9Euqw4gOsCyy0YfKURBg35nhUKZS4mDcfULw==}
     cpu: [arm]
     os: [android]
 
-  '@rollup/rollup-android-arm64@4.27.3':
-    resolution: {integrity: sha512-LJc5pDf1wjlt9o/Giaw9Ofl+k/vLUaYsE2zeQGH85giX2F+wn/Cg8b3c5CDP3qmVmeO5NzwVUzQQxwZvC2eQKw==}
+  '@rollup/rollup-android-arm64@4.27.4':
+    resolution: {integrity: sha512-wzKRQXISyi9UdCVRqEd0H4cMpzvHYt1f/C3CoIjES6cG++RHKhrBj2+29nPF0IB5kpy9MS71vs07fvrNGAl/iA==}
     cpu: [arm64]
     os: [android]
 
-  '@rollup/rollup-darwin-arm64@4.27.3':
-    resolution: {integrity: sha512-OuRysZ1Mt7wpWJ+aYKblVbJWtVn3Cy52h8nLuNSzTqSesYw1EuN6wKp5NW/4eSre3mp12gqFRXOKTcN3AI3LqA==}
+  '@rollup/rollup-darwin-arm64@4.27.4':
+    resolution: {integrity: sha512-PlNiRQapift4LNS8DPUHuDX/IdXiLjf8mc5vdEmUR0fF/pyy2qWwzdLjB+iZquGr8LuN4LnUoSEvKRwjSVYz3Q==}
     cpu: [arm64]
     os: [darwin]
 
-  '@rollup/rollup-darwin-x64@4.27.3':
-    resolution: {integrity: sha512-xW//zjJMlJs2sOrCmXdB4d0uiilZsOdlGQIC/jjmMWT47lkLLoB1nsNhPUcnoqyi5YR6I4h+FjBpILxbEy8JRg==}
+  '@rollup/rollup-darwin-x64@4.27.4':
+    resolution: {integrity: sha512-o9bH2dbdgBDJaXWJCDTNDYa171ACUdzpxSZt+u/AAeQ20Nk5x+IhA+zsGmrQtpkLiumRJEYef68gcpn2ooXhSQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@rollup/rollup-freebsd-arm64@4.27.3':
-    resolution: {integrity: sha512-58E0tIcwZ+12nK1WiLzHOD8I0d0kdrY/+o7yFVPRHuVGY3twBwzwDdTIBGRxLmyjciMYl1B/U515GJy+yn46qw==}
+  '@rollup/rollup-freebsd-arm64@4.27.4':
+    resolution: {integrity: sha512-NBI2/i2hT9Q+HySSHTBh52da7isru4aAAo6qC3I7QFVsuhxi2gM8t/EI9EVcILiHLj1vfi+VGGPaLOUENn7pmw==}
     cpu: [arm64]
     os: [freebsd]
 
-  '@rollup/rollup-freebsd-x64@4.27.3':
-    resolution: {integrity: sha512-78fohrpcVwTLxg1ZzBMlwEimoAJmY6B+5TsyAZ3Vok7YabRBUvjYTsRXPTjGEvv/mfgVBepbW28OlMEz4w8wGA==}
+  '@rollup/rollup-freebsd-x64@4.27.4':
+    resolution: {integrity: sha512-wYcC5ycW2zvqtDYrE7deary2P2UFmSh85PUpAx+dwTCO9uw3sgzD6Gv9n5X4vLaQKsrfTSZZ7Z7uynQozPVvWA==}
     cpu: [x64]
     os: [freebsd]
 
-  '@rollup/rollup-linux-arm-gnueabihf@4.27.3':
-    resolution: {integrity: sha512-h2Ay79YFXyQi+QZKo3ISZDyKaVD7uUvukEHTOft7kh00WF9mxAaxZsNs3o/eukbeKuH35jBvQqrT61fzKfAB/Q==}
+  '@rollup/rollup-linux-arm-gnueabihf@4.27.4':
+    resolution: {integrity: sha512-9OwUnK/xKw6DyRlgx8UizeqRFOfi9mf5TYCw1uolDaJSbUmBxP85DE6T4ouCMoN6pXw8ZoTeZCSEfSaYo+/s1w==}
     cpu: [arm]
     os: [linux]
 
-  '@rollup/rollup-linux-arm-musleabihf@4.27.3':
-    resolution: {integrity: sha512-Sv2GWmrJfRY57urktVLQ0VKZjNZGogVtASAgosDZ1aUB+ykPxSi3X1nWORL5Jk0sTIIwQiPH7iE3BMi9zGWfkg==}
+  '@rollup/rollup-linux-arm-musleabihf@4.27.4':
+    resolution: {integrity: sha512-Vgdo4fpuphS9V24WOV+KwkCVJ72u7idTgQaBoLRD0UxBAWTF9GWurJO9YD9yh00BzbkhpeXtm6na+MvJU7Z73A==}
     cpu: [arm]
     os: [linux]
 
-  '@rollup/rollup-linux-arm64-gnu@4.27.3':
-    resolution: {integrity: sha512-FPoJBLsPW2bDNWjSrwNuTPUt30VnfM8GPGRoLCYKZpPx0xiIEdFip3dH6CqgoT0RnoGXptaNziM0WlKgBc+OWQ==}
+  '@rollup/rollup-linux-arm64-gnu@4.27.4':
+    resolution: {integrity: sha512-pleyNgyd1kkBkw2kOqlBx+0atfIIkkExOTiifoODo6qKDSpnc6WzUY5RhHdmTdIJXBdSnh6JknnYTtmQyobrVg==}
     cpu: [arm64]
     os: [linux]
 
-  '@rollup/rollup-linux-arm64-musl@4.27.3':
-    resolution: {integrity: sha512-TKxiOvBorYq4sUpA0JT+Fkh+l+G9DScnG5Dqx7wiiqVMiRSkzTclP35pE6eQQYjP4Gc8yEkJGea6rz4qyWhp3g==}
+  '@rollup/rollup-linux-arm64-musl@4.27.4':
+    resolution: {integrity: sha512-caluiUXvUuVyCHr5DxL8ohaaFFzPGmgmMvwmqAITMpV/Q+tPoaHZ/PWa3t8B2WyoRcIIuu1hkaW5KkeTDNSnMA==}
     cpu: [arm64]
     os: [linux]
 
-  '@rollup/rollup-linux-powerpc64le-gnu@4.27.3':
-    resolution: {integrity: sha512-v2M/mPvVUKVOKITa0oCFksnQQ/TqGrT+yD0184/cWHIu0LoIuYHwox0Pm3ccXEz8cEQDLk6FPKd1CCm+PlsISw==}
+  '@rollup/rollup-linux-powerpc64le-gnu@4.27.4':
+    resolution: {integrity: sha512-FScrpHrO60hARyHh7s1zHE97u0KlT/RECzCKAdmI+LEoC1eDh/RDji9JgFqyO+wPDb86Oa/sXkily1+oi4FzJQ==}
     cpu: [ppc64]
     os: [linux]
 
-  '@rollup/rollup-linux-riscv64-gnu@4.27.3':
-    resolution: {integrity: sha512-LdrI4Yocb1a/tFVkzmOE5WyYRgEBOyEhWYJe4gsDWDiwnjYKjNs7PS6SGlTDB7maOHF4kxevsuNBl2iOcj3b4A==}
+  '@rollup/rollup-linux-riscv64-gnu@4.27.4':
+    resolution: {integrity: sha512-qyyprhyGb7+RBfMPeww9FlHwKkCXdKHeGgSqmIXw9VSUtvyFZ6WZRtnxgbuz76FK7LyoN8t/eINRbPUcvXB5fw==}
     cpu: [riscv64]
     os: [linux]
 
-  '@rollup/rollup-linux-s390x-gnu@4.27.3':
-    resolution: {integrity: sha512-d4wVu6SXij/jyiwPvI6C4KxdGzuZOvJ6y9VfrcleHTwo68fl8vZC5ZYHsCVPUi4tndCfMlFniWgwonQ5CUpQcA==}
+  '@rollup/rollup-linux-s390x-gnu@4.27.4':
+    resolution: {integrity: sha512-PFz+y2kb6tbh7m3A7nA9++eInGcDVZUACulf/KzDtovvdTizHpZaJty7Gp0lFwSQcrnebHOqxF1MaKZd7psVRg==}
     cpu: [s390x]
     os: [linux]
 
-  '@rollup/rollup-linux-x64-gnu@4.27.3':
-    resolution: {integrity: sha512-/6bn6pp1fsCGEY5n3yajmzZQAh+mW4QPItbiWxs69zskBzJuheb3tNynEjL+mKOsUSFK11X4LYF2BwwXnzWleA==}
+  '@rollup/rollup-linux-x64-gnu@4.27.4':
+    resolution: {integrity: sha512-Ni8mMtfo+o/G7DVtweXXV/Ol2TFf63KYjTtoZ5f078AUgJTmaIJnj4JFU7TK/9SVWTaSJGxPi5zMDgK4w+Ez7Q==}
     cpu: [x64]
     os: [linux]
 
-  '@rollup/rollup-linux-x64-musl@4.27.3':
-    resolution: {integrity: sha512-nBXOfJds8OzUT1qUreT/en3eyOXd2EH5b0wr2bVB5999qHdGKkzGzIyKYaKj02lXk6wpN71ltLIaQpu58YFBoQ==}
+  '@rollup/rollup-linux-x64-musl@4.27.4':
+    resolution: {integrity: sha512-5AeeAF1PB9TUzD+3cROzFTnAJAcVUGLuR8ng0E0WXGkYhp6RD6L+6szYVX+64Rs0r72019KHZS1ka1q+zU/wUw==}
     cpu: [x64]
     os: [linux]
 
-  '@rollup/rollup-win32-arm64-msvc@4.27.3':
-    resolution: {integrity: sha512-ogfbEVQgIZOz5WPWXF2HVb6En+kWzScuxJo/WdQTqEgeyGkaa2ui5sQav9Zkr7bnNCLK48uxmmK0TySm22eiuw==}
+  '@rollup/rollup-win32-arm64-msvc@4.27.4':
+    resolution: {integrity: sha512-yOpVsA4K5qVwu2CaS3hHxluWIK5HQTjNV4tWjQXluMiiiu4pJj4BN98CvxohNCpcjMeTXk/ZMJBRbgRg8HBB6A==}
     cpu: [arm64]
     os: [win32]
 
-  '@rollup/rollup-win32-ia32-msvc@4.27.3':
-    resolution: {integrity: sha512-ecE36ZBMLINqiTtSNQ1vzWc5pXLQHlf/oqGp/bSbi7iedcjcNb6QbCBNG73Euyy2C+l/fn8qKWEwxr+0SSfs3w==}
+  '@rollup/rollup-win32-ia32-msvc@4.27.4':
+    resolution: {integrity: sha512-KtwEJOaHAVJlxV92rNYiG9JQwQAdhBlrjNRp7P9L8Cb4Rer3in+0A+IPhJC9y68WAi9H0sX4AiG2NTsVlmqJeQ==}
     cpu: [ia32]
     os: [win32]
 
-  '@rollup/rollup-win32-x64-msvc@4.27.3':
-    resolution: {integrity: sha512-vliZLrDmYKyaUoMzEbMTg2JkerfBjn03KmAw9CykO0Zzkzoyd7o3iZNam/TpyWNjNT+Cz2iO3P9Smv2wgrR+Eg==}
+  '@rollup/rollup-win32-x64-msvc@4.27.4':
+    resolution: {integrity: sha512-3j4jx1TppORdTAoBJRd+/wJRGCPC0ETWkXOecJ6PPZLj6SptXkrXcNqdj0oclbKML6FkQltdz7bBA3rUSirZug==}
     cpu: [x64]
     os: [win32]
 
@@ -1855,8 +1861,8 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
-  '@types/node@20.17.6':
-    resolution: {integrity: sha512-VEI7OdvK2wP7XHnsuXbAJnEpEkF6NjSN45QJlL4VGqZSXsnicpesdTWsg9RISeSdYd3yeRj/y3k5KGjUXYnFwQ==}
+  '@types/node@20.17.7':
+    resolution: {integrity: sha512-sZXXnpBFMKbao30dUAvzKbdwA2JM1fwUtVEq/kxKuPI5mMwZiRElCpTXb0Biq/LMEVpXDZL5G5V0RPnxKeyaYg==}
 
   '@types/nodemon@1.19.6':
     resolution: {integrity: sha512-vjKuaQOLUA5EY2zkUmWG1ipXbKt9Wd+H/0SiIuHVeH4cHtt6509iRUGH9ZR0iqgUrtj3BrP9KqoTuV3ZCbQcYA==}
@@ -2192,8 +2198,8 @@ packages:
   bare-path@2.1.3:
     resolution: {integrity: sha512-lh/eITfU8hrj9Ru5quUp0Io1kJWIk1bTjzo7JH1P5dWmQ2EL4hFUlfI8FonAhSlgIfhn63p84CDY/x+PisgcXA==}
 
-  bare-stream@2.4.0:
-    resolution: {integrity: sha512-sd96/aZ8LjF1uJbEHzIo1LrERPKRFPEy1nZ1eOILftBxrVsFDAQkimHIIq87xrHcubzjNeETsD9PwN0wp+vLiQ==}
+  bare-stream@2.4.2:
+    resolution: {integrity: sha512-XZ4ln/KV4KT+PXdIWTKjsLY+quqCaEtqqtgGJVPw9AoM73By03ij64YjepK0aQvHSWDb6AfAZwqKaFu68qkrdA==}
 
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -2308,8 +2314,8 @@ packages:
   camelize@1.0.1:
     resolution: {integrity: sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ==}
 
-  caniuse-lite@1.0.30001683:
-    resolution: {integrity: sha512-iqmNnThZ0n70mNwvxpEC2nBJ037ZHZUoBI5Gorh1Mw6IlEAZujEoU1tXA628iZfzm7R9FvFzxbfdgml82a3k8Q==}
+  caniuse-lite@1.0.30001684:
+    resolution: {integrity: sha512-G1LRwLIQjBQoyq0ZJGqGIJUXzJ8irpbjHLpVRXDvBEScFJ9b17sgK6vlx0GAJFE21okD7zXl08rRRUfq6HdoEQ==}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -5100,8 +5106,8 @@ packages:
     resolution: {integrity: sha512-CHhPh+UNHD2GTXNYhPWLnU8ONHdI+5DI+4EYIAOaiD63rHeYlZvyh8P+in5999TTSFgUYuKUAjzRI4mdh/p+2A==}
     engines: {node: '>=8.0'}
 
-  rollup@4.27.3:
-    resolution: {integrity: sha512-SLsCOnlmGt9VoZ9Ek8yBK8tAdmPHeppkw+Xa7yDlCEhDTvwYei03JlWo1fdc7YTfLZ4tD8riJCUyAgTbszk1fQ==}
+  rollup@4.27.4:
+    resolution: {integrity: sha512-RLKxqHEMjh/RGLsDxAEsaLO3mWgyoU6x9w6n1ikAzet4B3gI2/3yP6PWY2p9QzRTh6MfEIXB3MwsOY0Iv3vNrw==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
@@ -5635,8 +5641,8 @@ packages:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
 
-  type-fest@4.27.0:
-    resolution: {integrity: sha512-3IMSWgP7C5KSQqmo1wjhKrwsvXAtF33jO3QY+Uy++ia7hqvgSK6iXbbg5PbDBc1P2ZbNEDgejOrN4YooXvhwCw==}
+  type-fest@4.28.0:
+    resolution: {integrity: sha512-jXMwges/FVbFRe5lTMJZVEZCrO9kI9c8k0PA/z7nF3bo0JSCCLysvokFjNPIUK/itEMas10MQM+AiHoHt/T/XA==}
     engines: {node: '>=16'}
 
   type-is@1.6.18:
@@ -5674,8 +5680,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.6.3:
-    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -6545,7 +6551,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@formatjs/intl@2.10.0(typescript@5.6.3)':
+  '@formatjs/intl@2.10.0(typescript@5.3.2)':
     dependencies:
       '@formatjs/ecma402-abstract': 1.18.2
       '@formatjs/fast-memoize': 2.2.0
@@ -6555,7 +6561,19 @@ snapshots:
       intl-messageformat: 10.5.11
       tslib: 2.8.1
     optionalDependencies:
-      typescript: 5.6.3
+      typescript: 5.3.2
+
+  '@formatjs/intl@2.10.0(typescript@5.7.2)':
+    dependencies:
+      '@formatjs/ecma402-abstract': 1.18.2
+      '@formatjs/fast-memoize': 2.2.0
+      '@formatjs/icu-messageformat-parser': 2.7.6
+      '@formatjs/intl-displaynames': 6.6.6
+      '@formatjs/intl-listformat': 7.5.5
+      intl-messageformat: 10.5.11
+      tslib: 2.8.1
+    optionalDependencies:
+      typescript: 5.7.2
 
   '@hapi/bourne@3.0.0': {}
 
@@ -6650,7 +6668,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@noble/hashes@1.5.0': {}
+  '@noble/hashes@1.6.0': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -6668,14 +6686,14 @@ snapshots:
 
   '@paralleldrive/cuid2@2.2.2':
     dependencies:
-      '@noble/hashes': 1.5.0
+      '@noble/hashes': 1.6.0
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
   '@pkgr/core@0.1.1': {}
 
-  '@pmmmwh/react-refresh-webpack-plugin@0.5.15(react-refresh@0.14.0)(type-fest@4.27.0)(webpack-hot-middleware@2.26.1)(webpack@5.96.1(esbuild@0.21.3))':
+  '@pmmmwh/react-refresh-webpack-plugin@0.5.15(react-refresh@0.14.0)(type-fest@4.28.0)(webpack-hot-middleware@2.26.1)(webpack@5.96.1(esbuild@0.21.3))':
     dependencies:
       ansi-html: 0.0.9
       core-js-pure: 3.39.0
@@ -6687,7 +6705,7 @@ snapshots:
       source-map: 0.7.4
       webpack: 5.96.1(esbuild@0.21.3)
     optionalDependencies:
-      type-fest: 4.27.0
+      type-fest: 4.28.0
       webpack-hot-middleware: 2.26.1
 
   '@pnpm/config.env-replace@1.1.0': {}
@@ -7284,61 +7302,61 @@ snapshots:
 
   '@remix-run/router@1.21.0': {}
 
-  '@rollup/rollup-android-arm-eabi@4.27.3':
+  '@rollup/rollup-android-arm-eabi@4.27.4':
     optional: true
 
-  '@rollup/rollup-android-arm64@4.27.3':
+  '@rollup/rollup-android-arm64@4.27.4':
     optional: true
 
-  '@rollup/rollup-darwin-arm64@4.27.3':
+  '@rollup/rollup-darwin-arm64@4.27.4':
     optional: true
 
-  '@rollup/rollup-darwin-x64@4.27.3':
+  '@rollup/rollup-darwin-x64@4.27.4':
     optional: true
 
-  '@rollup/rollup-freebsd-arm64@4.27.3':
+  '@rollup/rollup-freebsd-arm64@4.27.4':
     optional: true
 
-  '@rollup/rollup-freebsd-x64@4.27.3':
+  '@rollup/rollup-freebsd-x64@4.27.4':
     optional: true
 
-  '@rollup/rollup-linux-arm-gnueabihf@4.27.3':
+  '@rollup/rollup-linux-arm-gnueabihf@4.27.4':
     optional: true
 
-  '@rollup/rollup-linux-arm-musleabihf@4.27.3':
+  '@rollup/rollup-linux-arm-musleabihf@4.27.4':
     optional: true
 
-  '@rollup/rollup-linux-arm64-gnu@4.27.3':
+  '@rollup/rollup-linux-arm64-gnu@4.27.4':
     optional: true
 
-  '@rollup/rollup-linux-arm64-musl@4.27.3':
+  '@rollup/rollup-linux-arm64-musl@4.27.4':
     optional: true
 
-  '@rollup/rollup-linux-powerpc64le-gnu@4.27.3':
+  '@rollup/rollup-linux-powerpc64le-gnu@4.27.4':
     optional: true
 
-  '@rollup/rollup-linux-riscv64-gnu@4.27.3':
+  '@rollup/rollup-linux-riscv64-gnu@4.27.4':
     optional: true
 
-  '@rollup/rollup-linux-s390x-gnu@4.27.3':
+  '@rollup/rollup-linux-s390x-gnu@4.27.4':
     optional: true
 
-  '@rollup/rollup-linux-x64-gnu@4.27.3':
+  '@rollup/rollup-linux-x64-gnu@4.27.4':
     optional: true
 
-  '@rollup/rollup-linux-x64-musl@4.27.3':
+  '@rollup/rollup-linux-x64-musl@4.27.4':
     optional: true
 
-  '@rollup/rollup-win32-arm64-msvc@4.27.3':
+  '@rollup/rollup-win32-arm64-msvc@4.27.4':
     optional: true
 
-  '@rollup/rollup-win32-ia32-msvc@4.27.3':
+  '@rollup/rollup-win32-ia32-msvc@4.27.4':
     optional: true
 
-  '@rollup/rollup-win32-x64-msvc@4.27.3':
+  '@rollup/rollup-win32-x64-msvc@4.27.4':
     optional: true
 
-  '@rushstack/node-core-library@5.10.0(@types/node@20.17.6)':
+  '@rushstack/node-core-library@5.10.0(@types/node@20.17.7)':
     dependencies:
       ajv: 8.13.0
       ajv-draft-04: 1.0.0(ajv@8.13.0)
@@ -7349,18 +7367,18 @@ snapshots:
       resolve: 1.22.8
       semver: 7.5.4
     optionalDependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
-  '@rushstack/terminal@0.14.3(@types/node@20.17.6)':
+  '@rushstack/terminal@0.14.3(@types/node@20.17.7)':
     dependencies:
-      '@rushstack/node-core-library': 5.10.0(@types/node@20.17.6)
+      '@rushstack/node-core-library': 5.10.0(@types/node@20.17.7)
       supports-color: 8.1.1
     optionalDependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
-  '@rushstack/ts-command-line@4.23.1(@types/node@20.17.6)':
+  '@rushstack/ts-command-line@4.23.1(@types/node@20.17.7)':
     dependencies:
-      '@rushstack/terminal': 0.14.3(@types/node@20.17.6)
+      '@rushstack/terminal': 0.14.3(@types/node@20.17.7)
       '@types/argparse': 1.0.38
       argparse: 1.0.10
       string-argv: 0.3.2
@@ -7381,18 +7399,18 @@ snapshots:
       escape-string-regexp: 2.0.0
       lodash.deburr: 4.1.0
 
-  '@strapi/admin@5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+  '@strapi/admin@5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@casl/ability': 6.5.0
       '@internationalized/date': 3.5.4
       '@radix-ui/react-context': 1.0.1(@types/react@18.3.12)(react@18.3.1)
       '@radix-ui/react-toolbar': 1.0.4(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1))(react@18.3.1)
-      '@strapi/data-transfer': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.6.3)
+      '@strapi/data-transfer': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.7.2)
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/permissions': 5.4.1
-      '@strapi/types': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2)
+      '@strapi/types': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2)
       '@strapi/typescript-utils': 5.4.1
       '@strapi/utils': 5.4.1
       '@testing-library/dom': 10.1.0
@@ -7431,7 +7449,7 @@ snapshots:
       punycode: 2.3.1
       qs: 6.11.1
       react: 18.3.1
-      react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react@18.3.12)(react@18.3.1)
+      react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react@18.3.12)(react@18.3.1)
       react-dnd-html5-backend: 16.0.1
       react-dom: 18.3.1(react@18.3.1)
       react-intl: 6.6.2(react@18.3.1)(typescript@5.3.2)
@@ -7507,15 +7525,15 @@ snapshots:
       - debug
       - supports-color
 
-  '@strapi/content-manager@5.4.1(jcq6ktct6ge533yhvvw2uzs5ui)':
+  '@strapi/content-manager@5.4.1(mcruqttjythokpiyk5s2b3qeay)':
     dependencies:
       '@radix-ui/react-toolbar': 1.0.4(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1))(react@18.3.1)
       '@sindresorhus/slugify': 1.1.0
-      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@strapi/types': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.6.3)
+      '@strapi/types': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.7.2)
       '@strapi/utils': 5.4.1
       codemirror5: codemirror@5.65.18
       date-fns: 2.30.0
@@ -7537,11 +7555,11 @@ snapshots:
       node-schedule: 2.1.1
       qs: 6.11.1
       react: 18.3.1
-      react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react@18.3.12)(react@18.3.1)
+      react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react@18.3.12)(react@18.3.1)
       react-dnd-html5-backend: 16.0.1
       react-dom: 18.3.1(react@18.3.1)
       react-helmet: 6.1.0(react@18.3.1)
-      react-intl: 6.6.2(react@18.3.1)(typescript@5.6.3)
+      react-intl: 6.6.2(react@18.3.1)(typescript@5.7.2)
       react-query: 3.39.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-redux: 8.1.3(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1)
       react-router-dom: 6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -7578,15 +7596,15 @@ snapshots:
       - tedious
       - typescript
 
-  '@strapi/content-releases@5.4.1(r54khuix3ld2qetpzmsg7ofi6y)':
+  '@strapi/content-releases@5.4.1(yo6icsyrfq5vbaokn32or5nba4)':
     dependencies:
       '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1))(react@18.3.1)
-      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@strapi/content-manager': 5.4.1(jcq6ktct6ge533yhvvw2uzs5ui)
-      '@strapi/database': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)
+      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@strapi/content-manager': 5.4.1(mcruqttjythokpiyk5s2b3qeay)
+      '@strapi/database': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@strapi/types': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2)
+      '@strapi/types': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2)
       '@strapi/utils': 5.4.1
       date-fns: 2.30.0
       date-fns-tz: 2.0.1(date-fns@2.30.0)
@@ -7626,11 +7644,11 @@ snapshots:
       - tedious
       - typescript
 
-  '@strapi/content-type-builder@5.4.1(wdsc6pkr5luroxt7xyrss4zj5e)':
+  '@strapi/content-type-builder@5.4.1(geyz2u3opg3nekzb2mo6dixjdu)':
     dependencies:
       '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1))(react@18.3.1)
       '@sindresorhus/slugify': 1.1.0
-      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/generators': 5.4.1
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
@@ -7664,18 +7682,18 @@ snapshots:
       - redux
       - typescript
 
-  '@strapi/core@5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)':
+  '@strapi/core@5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)':
     dependencies:
       '@koa/cors': 5.0.0
       '@koa/router': 12.0.2
       '@paralleldrive/cuid2': 2.2.2
-      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@strapi/database': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)
+      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@strapi/database': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)
       '@strapi/generators': 5.4.1
       '@strapi/logger': 5.4.1
-      '@strapi/pack-up': 5.0.0(@swc/helpers@0.5.15)(@types/node@20.17.6)(debug@4.3.4)(terser@5.36.0)
+      '@strapi/pack-up': 5.0.0(@swc/helpers@0.5.15)(@types/node@20.17.7)(debug@4.3.4)(terser@5.36.0)
       '@strapi/permissions': 5.4.1
-      '@strapi/types': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2)
+      '@strapi/types': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2)
       '@strapi/typescript-utils': 5.4.1
       '@strapi/utils': 5.4.1
       bcryptjs: 2.4.3
@@ -7760,10 +7778,10 @@ snapshots:
       - tedious
       - terser
 
-  '@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.6.3)':
+  '@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.7.2)':
     dependencies:
       '@strapi/logger': 5.4.1
-      '@strapi/types': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.6.3)
+      '@strapi/types': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.7.2)
       '@strapi/utils': 5.4.1
       chalk: 4.1.2
       cli-table3: 0.6.5
@@ -7793,7 +7811,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@strapi/database@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)':
+  '@strapi/database@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)':
     dependencies:
       '@paralleldrive/cuid2': 2.2.2
       '@strapi/utils': 5.4.1
@@ -7804,7 +7822,7 @@ snapshots:
       knex: 3.0.1(mysql2@3.9.8)
       lodash: 4.17.21
       semver: 7.5.4
-      umzug: 3.8.1(@types/node@20.17.6)
+      umzug: 3.8.1(@types/node@20.17.7)
     transitivePeerDependencies:
       - '@types/node'
       - better-sqlite3
@@ -7857,9 +7875,9 @@ snapshots:
       - '@types/react-dom'
       - codemirror
 
-  '@strapi/email@5.4.1(d2neom4spsmrgs2nmo65vv5oxe)':
+  '@strapi/email@5.4.1(vp5y6srohrbxks2f6lfrz5nhka)':
     dependencies:
-      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/provider-email-sendmail': 5.4.1
@@ -7900,11 +7918,11 @@ snapshots:
       plop: 4.0.1
       pluralize: 8.0.0
 
-  '@strapi/i18n@5.4.1(iwlwlcucvvsgd53fnaoz5v4t2e)':
+  '@strapi/i18n@5.4.1(q2hhj4te6ohvkwczhkh43lhj34)':
     dependencies:
       '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1))(react@18.3.1)
-      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@strapi/content-manager': 5.4.1(jcq6ktct6ge533yhvvw2uzs5ui)
+      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@strapi/content-manager': 5.4.1(mcruqttjythokpiyk5s2b3qeay)
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/utils': 5.4.1
@@ -7944,9 +7962,9 @@ snapshots:
       lodash: 4.17.21
       winston: 3.10.0
 
-  '@strapi/pack-up@5.0.0(@swc/helpers@0.5.15)(@types/node@20.17.6)(debug@4.3.4)(terser@5.36.0)':
+  '@strapi/pack-up@5.0.0(@swc/helpers@0.5.15)(@types/node@20.17.7)(debug@4.3.4)(terser@5.36.0)':
     dependencies:
-      '@vitejs/plugin-react-swc': 3.6.0(@swc/helpers@0.5.15)(vite@5.2.8(@types/node@20.17.6)(terser@5.36.0))
+      '@vitejs/plugin-react-swc': 3.6.0(@swc/helpers@0.5.15)(vite@5.2.8(@types/node@20.17.7)(terser@5.36.0))
       boxen: 5.1.2
       browserslist-to-esbuild: 1.2.0
       chalk: 4.1.2
@@ -7965,7 +7983,7 @@ snapshots:
       prompts: 2.4.2
       rxjs: 7.8.1
       typescript: 5.4.4
-      vite: 5.2.8(@types/node@20.17.6)(terser@5.36.0)
+      vite: 5.2.8(@types/node@20.17.7)(terser@5.36.0)
       yup: 0.32.9
     transitivePeerDependencies:
       - '@swc/helpers'
@@ -7987,14 +8005,14 @@ snapshots:
       qs: 6.11.1
       sift: 16.0.1
 
-  '@strapi/plugin-cloud@5.4.1(hqd2bufdwnp25o7fycos2zylyq)':
+  '@strapi/plugin-cloud@5.4.1(qzfxrnnooxizvzwsoyrdqexili)':
     dependencies:
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@strapi/strapi': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(koa@2.15.2)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(type-fest@4.27.0)
+      '@strapi/strapi': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(koa@2.15.2)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(type-fest@4.28.0)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-intl: 6.6.2(react@18.3.1)(typescript@5.6.3)
+      react-intl: 6.6.2(react@18.3.1)(typescript@5.7.2)
       react-router-dom: 6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       styled-components: 6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
@@ -8011,11 +8029,11 @@ snapshots:
       - codemirror
       - typescript
 
-  '@strapi/plugin-users-permissions@5.4.1(fhthpjmnj6yrwy46djvg3yuvdy)':
+  '@strapi/plugin-users-permissions@5.4.1(nfbiaf77bmkvll35i54qsv6cki)':
     dependencies:
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@strapi/strapi': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(koa@2.15.2)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(type-fest@4.27.0)
+      '@strapi/strapi': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(koa@2.15.2)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(type-fest@4.28.0)
       '@strapi/utils': 5.4.1
       bcryptjs: 2.4.3
       formik: 2.4.5(react@18.3.1)
@@ -8030,7 +8048,7 @@ snapshots:
       purest: 4.0.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-intl: 6.6.2(react@18.3.1)(typescript@5.6.3)
+      react-intl: 6.6.2(react@18.3.1)(typescript@5.7.2)
       react-query: 3.39.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-redux: 8.1.3(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1)
       react-router-dom: 6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -8067,17 +8085,17 @@ snapshots:
       '@strapi/utils': 5.4.1
       fs-extra: 11.2.0
 
-  '@strapi/review-workflows@5.4.1(5yelxvg4ie42diccgo7is3heim)':
+  '@strapi/review-workflows@5.4.1(43rgt6i6kxi2qvmtyybmvgz6am)':
     dependencies:
       '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(redux@4.2.1))(react@18.3.1)
-      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@strapi/content-manager': 5.4.1(jcq6ktct6ge533yhvvw2uzs5ui)
+      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@strapi/content-manager': 5.4.1(mcruqttjythokpiyk5s2b3qeay)
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/utils': 5.4.1
       fractional-indexing: 3.2.0
       react: 18.3.1
-      react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react@18.3.12)(react@18.3.1)
+      react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react@18.3.12)(react@18.3.1)
       react-dnd-html5-backend: 16.0.1
       react-dom: 18.3.1(react@18.3.1)
       react-helmet: 6.1.0(react@18.3.1)
@@ -8104,30 +8122,30 @@ snapshots:
       - redux
       - typescript
 
-  '@strapi/strapi@5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(koa@2.15.2)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(type-fest@4.27.0)':
+  '@strapi/strapi@5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(koa@2.15.2)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)(type-fest@4.28.0)':
     dependencies:
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.15(react-refresh@0.14.0)(type-fest@4.27.0)(webpack-hot-middleware@2.26.1)(webpack@5.96.1(esbuild@0.21.3))
-      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.15(react-refresh@0.14.0)(type-fest@4.28.0)(webpack-hot-middleware@2.26.1)(webpack@5.96.1(esbuild@0.21.3))
+      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/cloud-cli': 5.4.1
-      '@strapi/content-manager': 5.4.1(jcq6ktct6ge533yhvvw2uzs5ui)
-      '@strapi/content-releases': 5.4.1(r54khuix3ld2qetpzmsg7ofi6y)
-      '@strapi/content-type-builder': 5.4.1(wdsc6pkr5luroxt7xyrss4zj5e)
-      '@strapi/core': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)
-      '@strapi/data-transfer': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.6.3)
-      '@strapi/database': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)
-      '@strapi/email': 5.4.1(d2neom4spsmrgs2nmo65vv5oxe)
+      '@strapi/content-manager': 5.4.1(mcruqttjythokpiyk5s2b3qeay)
+      '@strapi/content-releases': 5.4.1(yo6icsyrfq5vbaokn32or5nba4)
+      '@strapi/content-type-builder': 5.4.1(geyz2u3opg3nekzb2mo6dixjdu)
+      '@strapi/core': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@swc/helpers@0.5.15)(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.36.0)
+      '@strapi/data-transfer': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.7.2)
+      '@strapi/database': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)
+      '@strapi/email': 5.4.1(vp5y6srohrbxks2f6lfrz5nhka)
       '@strapi/generators': 5.4.1
-      '@strapi/i18n': 5.4.1(iwlwlcucvvsgd53fnaoz5v4t2e)
+      '@strapi/i18n': 5.4.1(q2hhj4te6ohvkwczhkh43lhj34)
       '@strapi/logger': 5.4.1
-      '@strapi/pack-up': 5.0.0(@swc/helpers@0.5.15)(@types/node@20.17.6)(debug@4.3.4)(terser@5.36.0)
+      '@strapi/pack-up': 5.0.0(@swc/helpers@0.5.15)(@types/node@20.17.7)(debug@4.3.4)(terser@5.36.0)
       '@strapi/permissions': 5.4.1
-      '@strapi/review-workflows': 5.4.1(5yelxvg4ie42diccgo7is3heim)
-      '@strapi/types': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2)
+      '@strapi/review-workflows': 5.4.1(43rgt6i6kxi2qvmtyybmvgz6am)
+      '@strapi/types': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2)
       '@strapi/typescript-utils': 5.4.1
-      '@strapi/upload': 5.4.1(uzvrj7puoappqrzj663st4aque)
+      '@strapi/upload': 5.4.1(wrswd7of46r4qwhkqxlhiaunce)
       '@strapi/utils': 5.4.1
       '@types/nodemon': 1.19.6
-      '@vitejs/plugin-react-swc': 3.6.0(@swc/helpers@0.5.15)(vite@5.2.14(@types/node@20.17.6)(terser@5.36.0))
+      '@vitejs/plugin-react-swc': 3.6.0(@swc/helpers@0.5.15)(vite@5.2.14(@types/node@20.17.7)(terser@5.36.0))
       boxen: 5.1.2
       browserslist: 4.24.2
       browserslist-to-esbuild: 1.2.0
@@ -8168,7 +8186,7 @@ snapshots:
       style-loader: 3.3.4(webpack@5.96.1(esbuild@0.21.3))
       styled-components: 6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       typescript: 5.3.2
-      vite: 5.2.14(@types/node@20.17.6)(terser@5.36.0)
+      vite: 5.2.14(@types/node@20.17.7)(terser@5.36.0)
       webpack: 5.96.1(esbuild@0.21.3)
       webpack-bundle-analyzer: 4.10.2
       webpack-dev-middleware: 6.1.2(webpack@5.96.1(esbuild@0.21.3))
@@ -8224,12 +8242,12 @@ snapshots:
       - webpack-dev-server
       - webpack-plugin-serve
 
-  '@strapi/types@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2)':
+  '@strapi/types@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2)':
     dependencies:
       '@casl/ability': 6.5.0
       '@koa/cors': 5.0.0
       '@koa/router': 12.0.2
-      '@strapi/database': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)
+      '@strapi/database': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)
       '@strapi/logger': 5.4.1
       '@strapi/permissions': 5.4.1
       '@strapi/utils': 5.4.1
@@ -8238,8 +8256,8 @@ snapshots:
       koa-body: 6.0.1
       node-schedule: 2.1.1
       typedoc: 0.25.10(typescript@5.3.2)
-      typedoc-github-wiki-theme: 1.1.0(typedoc-plugin-markdown@3.17.1(typedoc@0.25.10(typescript@5.6.3)))(typedoc@0.25.10(typescript@5.6.3))
-      typedoc-plugin-markdown: 3.17.1(typedoc@0.25.10(typescript@5.6.3))
+      typedoc-github-wiki-theme: 1.1.0(typedoc-plugin-markdown@3.17.1(typedoc@0.25.10(typescript@5.7.2)))(typedoc@0.25.10(typescript@5.7.2))
+      typedoc-plugin-markdown: 3.17.1(typedoc@0.25.10(typescript@5.7.2))
     transitivePeerDependencies:
       - '@types/node'
       - better-sqlite3
@@ -8252,12 +8270,12 @@ snapshots:
       - tedious
       - typescript
 
-  '@strapi/types@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.6.3)':
+  '@strapi/types@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.7.2)':
     dependencies:
       '@casl/ability': 6.5.0
       '@koa/cors': 5.0.0
       '@koa/router': 12.0.2
-      '@strapi/database': 5.4.1(@types/node@20.17.6)(mysql2@3.9.8)
+      '@strapi/database': 5.4.1(@types/node@20.17.7)(mysql2@3.9.8)
       '@strapi/logger': 5.4.1
       '@strapi/permissions': 5.4.1
       '@strapi/utils': 5.4.1
@@ -8265,9 +8283,9 @@ snapshots:
       koa: 2.15.2
       koa-body: 6.0.1
       node-schedule: 2.1.1
-      typedoc: 0.25.10(typescript@5.6.3)
-      typedoc-github-wiki-theme: 1.1.0(typedoc-plugin-markdown@3.17.1(typedoc@0.25.10(typescript@5.6.3)))(typedoc@0.25.10(typescript@5.6.3))
-      typedoc-plugin-markdown: 3.17.1(typedoc@0.25.10(typescript@5.6.3))
+      typedoc: 0.25.10(typescript@5.7.2)
+      typedoc-github-wiki-theme: 1.1.0(typedoc-plugin-markdown@3.17.1(typedoc@0.25.10(typescript@5.7.2)))(typedoc@0.25.10(typescript@5.7.2))
+      typedoc-plugin-markdown: 3.17.1(typedoc@0.25.10(typescript@5.7.2))
     transitivePeerDependencies:
       - '@types/node'
       - better-sqlite3
@@ -8318,9 +8336,9 @@ snapshots:
       - '@types/react'
       - '@types/react-dom'
 
-  '@strapi/upload@5.4.1(uzvrj7puoappqrzj663st4aque)':
+  '@strapi/upload@5.4.1(wrswd7of46r4qwhkqxlhiaunce)':
     dependencies:
-      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.6)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+      '@strapi/admin': 5.4.1(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/data-transfer@5.4.1(@types/node@20.17.7)(mysql2@3.9.8)(typescript@5.3.2))(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(debug@4.3.4)(mysql2@3.9.8)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/design-system': 2.0.0-rc.12(@babel/runtime@7.26.0)(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.35.0)(@lezer/common@1.2.3))(@codemirror/language@6.10.3)(@codemirror/lint@6.8.3)(@codemirror/search@6.5.8)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.35.0)(@strapi/icons@2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@types/react-dom@18.3.1)(@types/react@18.3.12)(codemirror@5.65.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/icons': 2.0.0-rc.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@strapi/provider-upload-local': 5.4.1
@@ -8338,7 +8356,7 @@ snapshots:
       prop-types: 15.8.1
       qs: 6.11.1
       react: 18.3.1
-      react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react@18.3.12)(react@18.3.1)
+      react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react@18.3.12)(react@18.3.1)
       react-dom: 18.3.1(react@18.3.1)
       react-intl: 6.6.2(react@18.3.1)(typescript@5.3.2)
       react-query: 3.39.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -8468,7 +8486,7 @@ snapshots:
 
   '@types/accepts@1.3.7':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/argparse@1.0.38': {}
 
@@ -8477,23 +8495,23 @@ snapshots:
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
       '@types/responselike': 1.0.3
 
   '@types/co-body@6.1.3':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
       '@types/qs': 6.9.17
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/content-disposition@0.5.8': {}
 
@@ -8504,7 +8522,7 @@ snapshots:
       '@types/connect': 3.4.38
       '@types/express': 5.0.0
       '@types/keygrip': 1.0.6
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/debug@4.1.12':
     dependencies:
@@ -8524,14 +8542,14 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.6':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
       '@types/qs': 6.9.17
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
 
   '@types/express-serve-static-core@5.0.1':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
       '@types/qs': 6.9.17
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -8554,16 +8572,16 @@ snapshots:
 
   '@types/follow-redirects@1.14.4':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/formidable@2.0.6':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/hoist-non-react-statics@3.3.5':
     dependencies:
@@ -8596,13 +8614,13 @@ snapshots:
 
   '@types/jsonwebtoken@9.0.7':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/keygrip@1.0.6': {}
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/koa-compose@3.2.8':
     dependencies:
@@ -8617,12 +8635,12 @@ snapshots:
       '@types/http-errors': 2.0.4
       '@types/keygrip': 1.0.6
       '@types/koa-compose': 3.2.8
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/liftoff@4.0.3':
     dependencies:
       '@types/fined': 1.1.5
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/lodash@4.17.13': {}
 
@@ -8632,13 +8650,13 @@ snapshots:
 
   '@types/ms@0.7.34': {}
 
-  '@types/node@20.17.6':
+  '@types/node@20.17.7':
     dependencies:
       undici-types: 6.19.8
 
   '@types/nodemon@1.19.6':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -8646,7 +8664,7 @@ snapshots:
 
   '@types/progress-stream@2.0.5':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/prop-types@15.7.13': {}
 
@@ -8669,28 +8687,28 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/send@0.17.4':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
       '@types/send': 0.17.4
 
   '@types/set-cookie-parser@2.4.10':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/stylis@4.2.5': {}
 
   '@types/through@0.0.33':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
 
   '@types/triple-beam@1.3.5': {}
 
@@ -8739,17 +8757,17 @@ snapshots:
       - '@codemirror/lint'
       - '@codemirror/search'
 
-  '@vitejs/plugin-react-swc@3.6.0(@swc/helpers@0.5.15)(vite@5.2.14(@types/node@20.17.6)(terser@5.36.0))':
+  '@vitejs/plugin-react-swc@3.6.0(@swc/helpers@0.5.15)(vite@5.2.14(@types/node@20.17.7)(terser@5.36.0))':
     dependencies:
       '@swc/core': 1.9.3(@swc/helpers@0.5.15)
-      vite: 5.2.14(@types/node@20.17.6)(terser@5.36.0)
+      vite: 5.2.14(@types/node@20.17.7)(terser@5.36.0)
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@vitejs/plugin-react-swc@3.6.0(@swc/helpers@0.5.15)(vite@5.2.8(@types/node@20.17.6)(terser@5.36.0))':
+  '@vitejs/plugin-react-swc@3.6.0(@swc/helpers@0.5.15)(vite@5.2.8(@types/node@20.17.7)(terser@5.36.0))':
     dependencies:
       '@swc/core': 1.9.3(@swc/helpers@0.5.15)
-      vite: 5.2.8(@types/node@20.17.6)(terser@5.36.0)
+      vite: 5.2.8(@types/node@20.17.7)(terser@5.36.0)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -9005,7 +9023,7 @@ snapshots:
     dependencies:
       bare-events: 2.5.0
       bare-path: 2.1.3
-      bare-stream: 2.4.0
+      bare-stream: 2.4.2
     optional: true
 
   bare-os@2.4.4:
@@ -9016,7 +9034,7 @@ snapshots:
       bare-os: 2.4.4
     optional: true
 
-  bare-stream@2.4.0:
+  bare-stream@2.4.2:
     dependencies:
       streamx: 2.20.2
     optional: true
@@ -9086,7 +9104,7 @@ snapshots:
 
   browserslist@4.24.2:
     dependencies:
-      caniuse-lite: 1.0.30001683
+      caniuse-lite: 1.0.30001684
       electron-to-chromium: 1.5.64
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
@@ -9154,7 +9172,7 @@ snapshots:
 
   camelize@1.0.1: {}
 
-  caniuse-lite@1.0.30001683: {}
+  caniuse-lite@1.0.30001684: {}
 
   capital-case@1.0.4:
     dependencies:
@@ -10698,7 +10716,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -10884,7 +10902,7 @@ snapshots:
 
   koa-send@5.0.1:
     dependencies:
-      debug: 4.3.7(supports-color@5.5.0)
+      debug: 4.3.4
       http-errors: 1.8.1
       resolve-path: 1.4.0
     transitivePeerDependencies:
@@ -11837,7 +11855,7 @@ snapshots:
     dependencies:
       dnd-core: 16.0.1
 
-  react-dnd@16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.6)(@types/react@18.3.12)(react@18.3.1):
+  react-dnd@16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/node@20.17.7)(@types/react@18.3.12)(react@18.3.1):
     dependencies:
       '@react-dnd/invariant': 4.0.2
       '@react-dnd/shallowequal': 4.0.2
@@ -11847,7 +11865,7 @@ snapshots:
       react: 18.3.1
     optionalDependencies:
       '@types/hoist-non-react-statics': 3.3.5
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
       '@types/react': 18.3.12
 
   react-dom@18.3.1(react@18.3.1):
@@ -11872,7 +11890,7 @@ snapshots:
     dependencies:
       '@formatjs/ecma402-abstract': 1.18.2
       '@formatjs/icu-messageformat-parser': 2.7.6
-      '@formatjs/intl': 2.10.0(typescript@5.6.3)
+      '@formatjs/intl': 2.10.0(typescript@5.3.2)
       '@formatjs/intl-displaynames': 6.6.6
       '@formatjs/intl-listformat': 7.5.5
       '@types/hoist-non-react-statics': 3.3.5
@@ -11884,11 +11902,11 @@ snapshots:
     optionalDependencies:
       typescript: 5.3.2
 
-  react-intl@6.6.2(react@18.3.1)(typescript@5.6.3):
+  react-intl@6.6.2(react@18.3.1)(typescript@5.7.2):
     dependencies:
       '@formatjs/ecma402-abstract': 1.18.2
       '@formatjs/icu-messageformat-parser': 2.7.6
-      '@formatjs/intl': 2.10.0(typescript@5.6.3)
+      '@formatjs/intl': 2.10.0(typescript@5.7.2)
       '@formatjs/intl-displaynames': 6.6.6
       '@formatjs/intl-listformat': 7.5.5
       '@types/hoist-non-react-statics': 3.3.5
@@ -11898,7 +11916,7 @@ snapshots:
       react: 18.3.1
       tslib: 2.8.1
     optionalDependencies:
-      typescript: 5.6.3
+      typescript: 5.7.2
 
   react-is@16.13.1: {}
 
@@ -12187,28 +12205,28 @@ snapshots:
       semver-compare: 1.0.0
       sprintf-js: 1.1.3
 
-  rollup@4.27.3:
+  rollup@4.27.4:
     dependencies:
       '@types/estree': 1.0.6
     optionalDependencies:
-      '@rollup/rollup-android-arm-eabi': 4.27.3
-      '@rollup/rollup-android-arm64': 4.27.3
-      '@rollup/rollup-darwin-arm64': 4.27.3
-      '@rollup/rollup-darwin-x64': 4.27.3
-      '@rollup/rollup-freebsd-arm64': 4.27.3
-      '@rollup/rollup-freebsd-x64': 4.27.3
-      '@rollup/rollup-linux-arm-gnueabihf': 4.27.3
-      '@rollup/rollup-linux-arm-musleabihf': 4.27.3
-      '@rollup/rollup-linux-arm64-gnu': 4.27.3
-      '@rollup/rollup-linux-arm64-musl': 4.27.3
-      '@rollup/rollup-linux-powerpc64le-gnu': 4.27.3
-      '@rollup/rollup-linux-riscv64-gnu': 4.27.3
-      '@rollup/rollup-linux-s390x-gnu': 4.27.3
-      '@rollup/rollup-linux-x64-gnu': 4.27.3
-      '@rollup/rollup-linux-x64-musl': 4.27.3
-      '@rollup/rollup-win32-arm64-msvc': 4.27.3
-      '@rollup/rollup-win32-ia32-msvc': 4.27.3
-      '@rollup/rollup-win32-x64-msvc': 4.27.3
+      '@rollup/rollup-android-arm-eabi': 4.27.4
+      '@rollup/rollup-android-arm64': 4.27.4
+      '@rollup/rollup-darwin-arm64': 4.27.4
+      '@rollup/rollup-darwin-x64': 4.27.4
+      '@rollup/rollup-freebsd-arm64': 4.27.4
+      '@rollup/rollup-freebsd-x64': 4.27.4
+      '@rollup/rollup-linux-arm-gnueabihf': 4.27.4
+      '@rollup/rollup-linux-arm-musleabihf': 4.27.4
+      '@rollup/rollup-linux-arm64-gnu': 4.27.4
+      '@rollup/rollup-linux-arm64-musl': 4.27.4
+      '@rollup/rollup-linux-powerpc64le-gnu': 4.27.4
+      '@rollup/rollup-linux-riscv64-gnu': 4.27.4
+      '@rollup/rollup-linux-s390x-gnu': 4.27.4
+      '@rollup/rollup-linux-x64-gnu': 4.27.4
+      '@rollup/rollup-linux-x64-musl': 4.27.4
+      '@rollup/rollup-win32-arm64-msvc': 4.27.4
+      '@rollup/rollup-win32-ia32-msvc': 4.27.4
+      '@rollup/rollup-win32-x64-msvc': 4.27.4
       fsevents: 2.3.3
 
   run-async@2.4.1: {}
@@ -12744,7 +12762,7 @@ snapshots:
 
   type-fest@2.19.0: {}
 
-  type-fest@4.27.0: {}
+  type-fest@4.28.0: {}
 
   type-is@1.6.18:
     dependencies:
@@ -12755,15 +12773,15 @@ snapshots:
     dependencies:
       is-typedarray: 1.0.0
 
-  typedoc-github-wiki-theme@1.1.0(typedoc-plugin-markdown@3.17.1(typedoc@0.25.10(typescript@5.6.3)))(typedoc@0.25.10(typescript@5.6.3)):
+  typedoc-github-wiki-theme@1.1.0(typedoc-plugin-markdown@3.17.1(typedoc@0.25.10(typescript@5.7.2)))(typedoc@0.25.10(typescript@5.7.2)):
     dependencies:
-      typedoc: 0.25.10(typescript@5.6.3)
-      typedoc-plugin-markdown: 3.17.1(typedoc@0.25.10(typescript@5.6.3))
+      typedoc: 0.25.10(typescript@5.7.2)
+      typedoc-plugin-markdown: 3.17.1(typedoc@0.25.10(typescript@5.7.2))
 
-  typedoc-plugin-markdown@3.17.1(typedoc@0.25.10(typescript@5.6.3)):
+  typedoc-plugin-markdown@3.17.1(typedoc@0.25.10(typescript@5.7.2)):
     dependencies:
       handlebars: 4.7.8
-      typedoc: 0.25.10(typescript@5.6.3)
+      typedoc: 0.25.10(typescript@5.7.2)
 
   typedoc@0.25.10(typescript@5.3.2):
     dependencies:
@@ -12773,32 +12791,32 @@ snapshots:
       shiki: 0.14.7
       typescript: 5.3.2
 
-  typedoc@0.25.10(typescript@5.6.3):
+  typedoc@0.25.10(typescript@5.7.2):
     dependencies:
       lunr: 2.3.9
       marked: 4.3.0
       minimatch: 9.0.5
       shiki: 0.14.7
-      typescript: 5.6.3
+      typescript: 5.7.2
 
   typescript@5.3.2: {}
 
   typescript@5.4.4: {}
 
-  typescript@5.6.3: {}
+  typescript@5.7.2: {}
 
   uc.micro@1.0.6: {}
 
   uglify-js@3.19.3:
     optional: true
 
-  umzug@3.8.1(@types/node@20.17.6):
+  umzug@3.8.1(@types/node@20.17.7):
     dependencies:
-      '@rushstack/ts-command-line': 4.23.1(@types/node@20.17.6)
+      '@rushstack/ts-command-line': 4.23.1(@types/node@20.17.7)
       emittery: 0.13.1
       fast-glob: 3.3.2
       pony-cause: 2.1.11
-      type-fest: 4.27.0
+      type-fest: 4.28.0
     transitivePeerDependencies:
       - '@types/node'
 
@@ -12910,23 +12928,23 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@5.2.14(@types/node@20.17.6)(terser@5.36.0):
+  vite@5.2.14(@types/node@20.17.7)(terser@5.36.0):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.49
-      rollup: 4.27.3
+      rollup: 4.27.4
     optionalDependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
       fsevents: 2.3.3
       terser: 5.36.0
 
-  vite@5.2.8(@types/node@20.17.6)(terser@5.36.0):
+  vite@5.2.8(@types/node@20.17.7)(terser@5.36.0):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.49
-      rollup: 4.27.3
+      rollup: 4.27.4
     optionalDependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.7
       fsevents: 2.3.3
       terser: 5.36.0
 

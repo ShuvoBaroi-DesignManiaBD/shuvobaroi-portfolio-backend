@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_shared_sections",
+  "info": {
+    "displayName": "Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "bg_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slider_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bg_color": {
+      "type": "string"
+    },
+    "section_name": {
+      "type": "string",
+      "required": true
+    },
+    "sub_section": {
+      "displayName": "dynamic_zone",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.dynamic-zone"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttons": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.experience-content"
+    }
+  }
+}

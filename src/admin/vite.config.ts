@@ -7,6 +7,14 @@ export default (config: UserConfig) => {
       alias: {
         '@': '/src',
       },
+      // build: {
+      //   rollupOptions: {
+      //     maxParallelFileOps: 8,
+      //     output: {
+      //       manualChunks: undefined
+      //     }
+      //   }
+      // }
     },
   });
 };
