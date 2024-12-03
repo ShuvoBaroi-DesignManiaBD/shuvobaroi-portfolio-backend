@@ -52,6 +52,49 @@ export interface SharedExperienceItem extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedFooter extends Struct.ComponentSchema {
+  collectionName: 'components_shared_footers';
+  info: {
+    displayName: 'Footer';
+  };
+  attributes: {
+    btn_link: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'mailto:contact@jsmastery.pro'>;
+    btn_text: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<"Let's get in touch">;
+    copyright_additional_text: Schema.Attribute.String;
+    description: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<"Reach out to me today and let's discuss how I can help you achieve your goals.">;
+    heading: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Ready to take digital presence to the next level?'>;
+    social_media: Schema.Attribute.Component<'shared.social-media', true>;
+  };
+}
+
+export interface SharedHeader extends Struct.ComponentSchema {
+  collectionName: 'components_shared_headers';
+  info: {
+    description: '';
+    displayName: 'Header';
+  };
+  attributes: {
+    buttons: Schema.Attribute.Component<'shared.button', true>;
+    logo: Schema.Attribute.Media<'images'>;
+    menu: Schema.Attribute.Relation<'oneToOne', 'api::menu.menu'>;
+  };
+}
+
+export interface SharedLink extends Struct.ComponentSchema {
+  collectionName: 'components_shared_links';
+  info: {
+    description: '';
+    displayName: 'Link';
+  };
+  attributes: {
+    link: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -72,6 +115,18 @@ export interface SharedMenuItem extends Struct.ComponentSchema {
   attributes: {
     page: Schema.Attribute.Relation<'oneToOne', 'api::page.page'>;
     slug: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface SharedMyApproach extends Struct.ComponentSchema {
+  collectionName: 'components_shared_my_approaches';
+  info: {
+    displayName: 'MyApproach';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    phase: Schema.Attribute.String & Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -113,6 +168,8 @@ export interface SharedSection extends Struct.ComponentSchema {
     description: Schema.Attribute.Blocks;
     experience: Schema.Attribute.Component<'shared.experience-content', false>;
     heading: Schema.Attribute.String;
+    heading_secondaryColor: Schema.Attribute.String;
+    my_approaches: Schema.Attribute.Component<'shared.my-approach', true>;
     section_name: Schema.Attribute.String & Schema.Attribute.Required;
     slider_images: Schema.Attribute.Media<'images', true>;
     sub_heading: Schema.Attribute.String;
@@ -148,6 +205,28 @@ export interface SharedSlider extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedSocialMedia extends Struct.ComponentSchema {
+  collectionName: 'components_shared_social_medias';
+  info: {
+    displayName: 'social_media';
+  };
+  attributes: {
+    logo: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    name: Schema.Attribute.String;
+  };
+}
+
+export interface SharedTechnology extends Struct.ComponentSchema {
+  collectionName: 'components_shared_technologies';
+  info: {
+    displayName: 'Technology';
+  };
+  attributes: {
+    logo: Schema.Attribute.Media<'images'>;
+    name: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -155,13 +234,19 @@ declare module '@strapi/strapi' {
       'shared.dynamic-zone': SharedDynamicZone;
       'shared.experience-content': SharedExperienceContent;
       'shared.experience-item': SharedExperienceItem;
+      'shared.footer': SharedFooter;
+      'shared.header': SharedHeader;
+      'shared.link': SharedLink;
       'shared.media': SharedMedia;
       'shared.menu-item': SharedMenuItem;
+      'shared.my-approach': SharedMyApproach;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.section': SharedSection;
       'shared.seo': SharedSeo;
       'shared.slider': SharedSlider;
+      'shared.social-media': SharedSocialMedia;
+      'shared.technology': SharedTechnology;
     }
   }
 }

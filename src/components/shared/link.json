@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_links",
+  "info": {
+    "displayName": "Link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true,
+      "regex": "^(https?:\\/\\/[a-z0-9-]+(\\.[a-z0-9-]+)+(:\\d+)?(\\/.*)?)|^(\\/[a-zA-Z0-9-]*)?(\\/?[#a-zA-Z0-9-]*)?$"
+    }
+  }
+}

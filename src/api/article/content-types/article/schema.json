@@ -52,7 +52,10 @@
     },
     "description": {
       "type": "blocks",
-      "required": true
+      "required": false
+    },
+    "description_in_markdown": {
+      "type": "richtext"
     }
   }
 }

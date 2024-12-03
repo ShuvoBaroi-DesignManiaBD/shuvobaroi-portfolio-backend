@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Ready to take digital presence to the next level?"
+    },
+    "description": {
+      "type": "text",
+      "default": "Reach out to me today and let's discuss how I can help you achieve your goals."
+    },
+    "btn_text": {
+      "type": "string",
+      "default": "Let's get in touch"
+    },
+    "btn_link": {
+      "type": "string",
+      "default": "mailto:contact@jsmastery.pro"
+    },
+    "copyright_additional_text": {
+      "type": "string"
+    },
+    "social_media": {
+      "displayName": "social_media",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-media"
+    }
+  }
+}
